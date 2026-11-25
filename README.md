@@ -1,336 +1,127 @@
 # ELEC 4 - Python Programming
 
-# 
+## Student Information
 
-# Student Information
+- Name: Henesty G. De Guzman
+- Section: IV-BSIT A
+- Course: ELEC 4 - Python Programming
 
-# 
+## About
 
-# Name: Henesty G. De Guzman
+This repository contains my Set 1 activities for the self-paced learning assignment in Python Programming. Through these activities, I practiced using functions, modules, lists, sets, and exception handling.
 
-# Section: IV-BSIT \[Section]
+## Set 1 Activities
 
-# Course: ELEC 4 - Python Programming
+| Activity | Description |
+| --- | --- |
+| [P1 - Student Grade Calculator](set1/p1/) | Calculates student grades using functions. |
+| [P2 - Custom Module](set1/p2/) | Uses a separate module for grade calculations. |
+| [P3 - Student Record Manager](set1/p3/) | Manages student names using lists and sets. |
+| [P4 - Safe Menu Program](set1/p4/) | Handles errors using exception handling. |
 
-# 
+## How to Run
 
-# About
+Make sure Python 3 is installed. Open CMD or the terminal inside the repository folder. Run each activity using the commands below.
 
-# 
+## P1 - Student Grade Calculator
 
-# This repository contains my activities for the self-paced
+I created a menu-driven program that calculates the average, highest grade, lowest grade, and pass or fail status of a student using functions.
 
-# learning assignment in ELEC 4 - Python Programming.
+```cmd
+python set1/p1/p1_grade_calculator.py
+```
 
-# 
+### Program Output
 
-# For Set 1, I created different Python programs to apply
+Passed Result
 
-# what I learned about functions, modules, lists, sets,
+![Passed Result](set1/p1/screenshots/P1_Output_Passed.png)
 
-# and exception handling.
+Failed Result
 
-# 
+![Failed Result](set1/p1/screenshots/P1_Output_Failed.png)
 
-# Set 1 Activities
+## P2 - Custom Module
 
-# 
+I separated the grade calculation functions into a module called student_utils.py and imported them into my main program so I could reuse the functions.
 
-# | Activity | Description |
+```cmd
+python set1/p2/p2_main.py
+```
 
-# | --- | --- |
+### Program Output
 
-# | \[P1 - Student Grade Calculator](set1/p1/) | Calculates student grades using functions. |
+Passed Result
 
-# | \[P2 - Custom Module](set1/p2/) | Uses a separate module for grade calculations. |
+![Passed Result](set1/p2/screenshots/P2_Output_Passed.png)
 
-# | \[P3 - Student Record Manager](set1/p3/) | Manages student names using lists and sets. |
+Failed Result
 
-# | \[P4 - Safe Menu Program](set1/p4/) | Handles different errors using exception handling. |
+![Failed Result](set1/p2/screenshots/P2_Output_Failed.png)
 
-# 
+## P3 - Student Record Manager
 
-# How to Run the Programs
+I created a program that allows users to add, remove, search, and display student names. I used a list and a set to manage the names and prevent duplicate entries.
 
-# 
+```cmd
+python set1/p3/p3_record_manager.py
+```
 
-# Make sure Python is installed on your computer.
+### Program Output
 
-# Open the terminal or CMD inside the repository folder
+Add Student
 
-# and follow the commands below.
+![Add Student](set1/p3/screenshots/Add_Student.png)
 
-# 
+Display Students
 
-# \---
+![Display Students](set1/p3/screenshots/Display_Students.png)
 
-# 
+Duplicate Prevention
 
-# P1 - Student Grade Calculator
+![Duplicate Prevention](set1/p3/screenshots/Duplicate_Prevention.png)
 
-# 
+Remove Student
 
-# In this activity, I created a menu-driven program that
+![Remove Student](set1/p3/screenshots/Remove_Students.png)
 
-# allows the user to enter grades and view the average,
+Search Student
 
-# highest grade, lowest grade, and pass or fail status.
+![Search Student](set1/p3/screenshots/Search_Students.png)
 
-# I used functions to separate each calculation.
+## P4 - Safe Menu Program
 
-# 
+I used exception handling to handle invalid input, division by zero, and missing files without crashing the program.
 
-# Command
+```cmd
+cd set1\p4
+python p4_exceptions.py
+```
 
-# 
+Use test.txt to test the file opening option. After exiting the program, return to the repository folder using:
 
-# ```cmd
+```cmd
+cd ..\..
+```
 
-# python set1/p1/p1\_grade\_calculator.py
+### Program Output
 
-# ```
+Division by Zero
 
-# 
+![Division by Zero](set1/p4/screenshots/Division%20By%20Zero.png)
 
-# Program Output
+Invalid Menu Choice
 
-# 
+![Invalid Menu Choice](set1/p4/screenshots/Invalid%20Menu%20Choice.png)
 
-# Passed Result
+Invalid Number
 
-# 
+![Invalid Number](set1/p4/screenshots/Invalid%20Number.png)
 
-# !\[Passed Result](set1/p1/screenshots/P1\_Output\_Passed.png)
+Missing File
 
-# 
+![Missing File](set1/p4/screenshots/Missing%20File.png)
 
-# Failed Result
+## Reference
 
-# 
-
-# !\[Failed Result](set1/p1/screenshots/P1\_Output\_Failed.png)
-
-# 
-
-# \---
-
-# 
-
-# P2 - Custom Module
-
-# 
-
-# In this activity, I separated the grade calculation
-
-# functions into a module called student\_utils.py.
-
-# I imported and used these functions in my main program
-
-# instead of writing the same functions again.
-
-# 
-
-# Command
-
-# 
-
-# ```cmd
-
-# python set1/p2/p2\_main.py
-
-# ```
-
-# 
-
-# Program Output
-
-# 
-
-# Passed Result
-
-# 
-
-# !\[Passed Result](set1/p2/screenshots/P2\_Output\_Passed.png)
-
-# 
-
-# Failed Result
-
-# 
-
-# !\[Failed Result](set1/p2/screenshots/P2\_Output\_Failed.png)
-
-# 
-
-# \---
-
-# 
-
-# P3 - Student Record Manager
-
-# 
-
-# In this activity, I created a program that allows the
-
-# user to add, remove, search, and display student names.
-
-# I used a list to store the names and a set to prevent
-
-# duplicate entries.
-
-# 
-
-# Command
-
-# 
-
-# ```cmd
-
-# python set1/p3/p3\_record\_manager.py
-
-# ```
-
-# 
-
-# Program Output
-
-# 
-
-# Adding a Student
-
-# 
-
-# !\[Add Student](set1/p3/screenshots/Add\_Student.png)
-
-# 
-
-# Duplicate Prevention
-
-# 
-
-# !\[Duplicate Prevention](set1/p3/screenshots/Duplicate\_Prevention.png)
-
-# 
-
-# Searching for a Student
-
-# 
-
-# !\[Search Student](set1/p3/screenshots/Search\_Students.png)
-
-# 
-
-# Removing a Student
-
-# 
-
-# !\[Remove Student](set1/p3/screenshots/Remove\_Students.png)
-
-# 
-
-# Displaying Students
-
-# 
-
-# !\[Display Students](set1/p3/screenshots/Display\_Students.png)
-
-# 
-
-# \---
-
-# 
-
-# P4 - Safe Menu Program
-
-# 
-
-# In this activity, I applied exception handling to prevent
-
-# the program from crashing when the user enters invalid
-
-# input, divides a number by zero, or tries to open a file
-
-# that does not exist.
-
-# 
-
-# Command
-
-# 
-
-# ```cmd
-
-# cd set1/p4
-
-# python p4\_exceptions.py
-
-# ```
-
-# 
-
-# The test.txt file can be used to test the file opening
-
-# option.
-
-# 
-
-# After running the program, use the following command
-
-# to return to the main repository folder:
-
-# 
-
-# ```cmd
-
-# cd ../..
-
-# ```
-
-# 
-
-# Program Output
-
-# 
-
-# Division by Zero
-
-# 
-
-# !\[Division by Zero](set1/p4/screenshots/Division%20By%20Zero.png)
-
-# 
-
-# Invalid Number
-
-# 
-
-# !\[Invalid Number](set1/p4/screenshots/Invalid%20Number.png)
-
-# 
-
-# Missing File
-
-# 
-
-# !\[Missing File](set1/p4/screenshots/Missing%20File.png)
-
-# 
-
-# Invalid Menu Choice
-
-# 
-
-# !\[Invalid Menu Choice](set1/p4/screenshots/Invalid%20Menu%20Choice.png)
-
-# 
-
-# \---
-
-# 
-
-# Learning Reference
-
-# 
-
-# \- \[Bro Code - Python Full Course](https://www.youtube.com/watch?v=ix9cRaBkVe0)
-
+- [Bro Code - Python Full Course](https://www.youtube.com/watch?v=ix9cRaBkVe0)
